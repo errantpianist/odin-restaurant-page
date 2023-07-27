@@ -1,0 +1,22 @@
+{
+  "name": "odin-restaurant-page",
+  "version": "1.0.0",
+  "description": "Odin Project project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/errantpianist/odin-restaurant-page.git"
+  },
+  "author": "Yu Zhou Zhang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/errantpianist/odin-restaurant-page/issues"
+  },
+  "homepage": "https://github.com/errantpianist/odin-restaurant-page#readme",
+  "devDependencies": {
+    "webpack-cli": "^5.1.4"
+  }
+}
