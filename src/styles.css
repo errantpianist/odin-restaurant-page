@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 #content {
-  background: url('./Vegetable-Growing.jpeg') no-repeat center center fixed;
+  background: url('./Vegetable-Growing.jpeg') no-repeat center center fixed antiquewhite;
 }
 body {
   margin: 0;
