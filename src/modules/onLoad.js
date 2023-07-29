@@ -2,7 +2,6 @@ import { emptyMainContent } from "./emptyMainContent";
 import { mainContentHome } from "./mainContentHome";
 import { mainContentMenu } from "./mainContentMenu";
 import { mainContentContact } from "./mainContentContact";
-import "../styles.css";
 
 export const onLoad = () => {
   const content = document.getElementById("content");
