@@ -28,7 +28,7 @@ export const mainContentContact = () => {
   ];
   staffContacts.forEach((contact) => {
     const card = document.createElement("div");
-    card.classList.add("card");
+    card.classList.add("contact-card");
     const name = document.createElement("h3");
     name.innerText = contact.name;
     card.appendChild(name);

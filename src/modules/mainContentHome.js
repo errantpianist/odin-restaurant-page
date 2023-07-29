@@ -4,7 +4,7 @@ export const mainContentHome = () => {
   const mainContent = document.querySelector(".main-content");
 
   const card = document.createElement("div");
-  card.classList.add("card");
+  card.classList.add("home-card");
 
   const p1 = document.createElement("p");
   p1.innerText = "A Celebration of Farm-to-Table Freshness!";
@@ -12,9 +12,12 @@ export const mainContentHome = () => {
   const p2 = document.createElement("p");
   p2.innerText = "Experience the Bounty of Nature Infused into Every Dish.";
   card.appendChild(p2);
+  const chefDiv = document.createElement("div");
+  chefDiv.classList.add("chef");
   const chef = new Image();
   chef.src = Chef;
-  card.appendChild(chef);
+  chefDiv.appendChild(chef);
+  card.appendChild(chefDiv);
   const p3 = document.createElement("p");
   p3.innerText =
     "Order Online or Savor the Garden-to-Plate Experience in Our Greenhouse Haven!";

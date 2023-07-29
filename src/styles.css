@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+#content {
+  background: url('./Vegetable-Growing.jpeg') no-repeat center center fixed;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  background-color: black;
+  color: white;
+  height: 3rem;
+  text-align: center;
+  margin: 0;
+  padding: 2rem;
+  opacity: 0.9;
+}
+
+nav {
+  background-color: rgba(55, 99, 44, 0.9);
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+a:onhover {
+  background-color: #5a3;
+}
+
+
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.home-card {
+  background-color: rgba(55, 99, 44, 0.9);
+  color: white;
+  height: 30rem;
+  width: 30rem;
+  margin: 1rem;
+  padding: 3rem;
+}
+
+.menu-card, .contact-card {
+  background-color: rgba(55, 99, 44, 0.9);
+  color: white;
+  height: 12rem;
+  width: 30rem;
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-card:hover, .contact-card:hover {
+  background-color: #5a3;
+} 
+
+
+.chef {
+  position: relative;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+img {
+  border-radius: 15rem;
+  height: 12em;
+}
+
+
+h3 {
+  font-size: 2rem;
+  margin: 1rem;
+  padding: 0;
+}
+
+p {
+  font-size: 1.2rem;
+  margin: 1rem;
+}
+
+.home-card p {
+  padding: 1rem;
+}

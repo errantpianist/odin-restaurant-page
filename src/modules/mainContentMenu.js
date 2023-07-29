@@ -44,7 +44,7 @@ export const mainContentMenu = () => {
   ];
   menuItems.forEach((item) => {
     const card = document.createElement("div");
-    card.classList.add("card");
+    card.classList.add("menu-card");
     const name = document.createElement("h3");
     name.innerText = item.name;
     card.appendChild(name);

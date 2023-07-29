@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/errantpianist/odin-restaurant-page#readme",
   "devDependencies": {
-    "webpack-cli": "^5.1.4"
+    "css-loader": "^6.8.1",
+    "style-loader": "^3.3.3",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
   }
 }
